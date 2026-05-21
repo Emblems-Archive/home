@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#78b8ff"/>
+      <stop offset="1" stop-color="#2b73d6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#g)" stroke="#d9e8ff" stroke-width="1"/>
+  <g fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round">
+    <circle cx="50" cy="50" r="34" opacity="0.14"/>
+    <path d="M10 50h80" opacity="0.7"/>
+    <path d="M50 10v80" opacity="0.7"/>
+    <path d="M23 23c12 8 35 8 54 0" opacity="0.38"/>
+    <path d="M23 77c12-8 35-8 54 0" opacity="0.38"/>
+  </g>
+  <text x="50" y="92" font-family="Arial, Helvetica, sans-serif" font-size="6.5" fill="#ffffff" text-anchor="middle">emblems.wiki</text>
+</svg>

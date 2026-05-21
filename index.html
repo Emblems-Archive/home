@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emblems Archive | English Registry Dashboard</title>
+  <meta name="description" content="English dashboard for protected emblems and civil symbols.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://emblems.wiki/">
+  <meta property="og:site_name" content="emblems.wiki">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand-block">
+        <a class="site-logo" href="/" aria-label="Emblems Archive home">
+          <img src="logo.svg" class="site-logo-img" alt="Emblems Archive logo">
+          <span class="site-logo-text">Emblems Archive</span>
+        </a>
+        <p class="eyebrow">EMBLEMS ARCHIVE</p>
+        <h1 class="brand-title">International Registry Dashboard</h1>
+        <p class="brand-subtitle">Protective symbols in international humanitarian and civil documentation.</p>
+      </div>
+      <nav aria-label="Navigation">
+        <a class="btn btn-secondary" href="/">English home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content-shell">
+    <section class="search-filter-panel" aria-label="Search and filter panel">
+      <label for="registry-search"><strong>Search registry</strong></label>
+      <input id="registry-search" class="search-input" type="search" placeholder="Search symbol, legal basis, or usage context..." autocomplete="off">
+      <p class="search-status" id="registry-status">Showing all 12 registry entries.</p>
+
+      <div class="filter-row" role="group" aria-label="Category filter">
+        <button class="filter-button is-active" data-category="all" type="button">All</button>
+        <button class="filter-button" data-category="geneva" type="button">Geneva Emblems</button>
+        <button class="filter-button" data-category="civil" type="button">Civil Protection</button>
+      </div>
+    </section>
+
+    <section class="registry-grid" id="registry-grid" aria-live="polite">
+      <a class="symbol-card" href="registry/red-cross/" style="--symbol-icon: url('/assets/symbols/red_cross.png');" data-category="geneva" data-search="red cross geneva convention medical neutrality protected emblem">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Red Cross</h2>
+        <p class="card-text">Historic humanitarian emblem with strict legal protection under the Geneva framework.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/red-crescent/" style="--symbol-icon: url('/assets/symbols/red_crescent.png');" data-category="geneva" data-search="red crescent treaty recognition protective equivalent emblem">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Red Crescent</h2>
+        <p class="card-text">Equivalent protected emblem used where the cross is culturally inappropriate.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/red-crystal/" style="--symbol-icon: url('/assets/symbols/red_cristal.png');" data-category="geneva" data-search="red crystal additional protocol iii protective symbol neutral alternative">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Red Crystal</h2>
+        <p class="card-text">Neutral protective emblem introduced for contexts requiring non-denominational identification.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/red-lion-sun/" style="--symbol-icon: url('/assets/symbols/red_lion_and_sun.png');" data-category="geneva" data-search="red lion sun historical emblem iran humanitarian treaty recognition">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Red Lion and Sun</h2>
+        <p class="card-text">Historical Iranian protective emblem preserved as part of the treaty record.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/magen-david/" style="--symbol-icon: url('/assets/symbols/magen_david_adom.png');" data-category="geneva" data-search="magen david adom israel red crystal humanitarian national emblem">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Magen David Adom</h2>
+        <p class="card-text">National medical emblem used in Israel and aligned internationally through the Red Crystal framework.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/civil-defense/" style="--symbol-icon: url('/assets/symbols/international_civil_defense.png');" data-category="civil" data-search="civil defense blue triangle orange background protocol i civil protection">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Civil Defense</h2>
+        <p class="card-text">Blue triangle on orange ground for civil defense organizations and protected structures.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/cultural-property/" style="--symbol-icon: url('/assets/symbols/cultural_property_protection.png');" data-category="geneva" data-search="cultural property protection hague convention blue white shield heritage">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Cultural Property Protection</h2>
+        <p class="card-text">Mark used to identify monuments, museums and collections under Hague protection.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/dangerous-forces/" style="--symbol-icon: url('/assets/symbols/special_sign_for_dangerous_forces.png');" data-category="civil" data-search="special sign dangerous forces dams reservoirs nuclear installations orange circles">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Special Sign for Dangerous Forces</h2>
+        <p class="card-text">Protective sign for installations where attack would cause severe civilian risk.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/un-emblem/" style="--symbol-icon: url('/assets/symbols/united_nations_emblem.png');" data-category="geneva" data-search="un emblem united nations institutional insignia peacekeeping humanitarian missions">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>United Nations Emblem</h2>
+        <p class="card-text">Institutional insignia used by UN bodies, missions and humanitarian operations.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/first-aid/" style="--symbol-icon: url('/assets/symbols/first_aid_green_cross.png');" data-category="civil" data-search="first aid green cross safety signage iso 7010">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>First Aid Green Cross</h2>
+        <p class="card-text">Safety sign used for first-aid stations and emergency medical facilities.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/asclepius/" style="--symbol-icon: url('/assets/symbols/rod_of_asclepius.png');" data-category="civil" data-search="rod of asclepius classical medicine healthcare professional symbol">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Rod of Asclepius</h2>
+        <p class="card-text">Classical medical symbol widely adopted by healthcare organisations.</p>
+      </a>
+
+      <a class="symbol-card" href="registry/star-of-life/" style="--symbol-icon: url('/assets/symbols/star_of_life.png');" data-category="civil" data-search="star of life emergency medical services prehospital care blue star">
+        <span class="row-link">Open record</span>
+        <span class="row-icon" aria-hidden="true"></span>
+        <h2>Star of Life</h2>
+        <p class="card-text">Emergency medical services emblem used for ambulances and response teams.</p>
+      </a>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      const searchInput = document.getElementById("registry-search");
+      const buttons = Array.from(document.querySelectorAll(".filter-button"));
+      const cards = Array.from(document.querySelectorAll(".symbol-card"));
+      const status = document.getElementById("registry-status");
+
+      let activeCategory = "all";
+
+      function applyFilters() {
+        const term = (searchInput.value || "").trim().toLowerCase();
+
+        let visibleCount = 0;
+
+        cards.forEach((card) => {
+          const category = card.getAttribute("data-category") || "";
+          const searchable = card.getAttribute("data-search") || "";
+
+          const categoryMatch = activeCategory === "all" || category === activeCategory;
+          const textMatch = searchable.includes(term);
+
+          const isVisible = categoryMatch && textMatch;
+          card.hidden = !isVisible;
+          if (isVisible) {
+            visibleCount += 1;
+          }
+        });
+
+        if (status) {
+          status.textContent = term || activeCategory === "all"
+            ? `Showing ${visibleCount} registry entries.`
+            : `Showing ${visibleCount} registry entries for "${term}".`;
+        }
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeCategory = button.getAttribute("data-category") || "all";
+          buttons.forEach((btn) => btn.classList.toggle("is-active", btn === button));
+          applyFilters();
+        });
+      });
+
+      searchInput.addEventListener("input", applyFilters);
+      applyFilters();
+    })();
+  </script>
+</body>
+</html>
