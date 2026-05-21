@@ -1,28 +1,22 @@
-# Emblems Archive — Static Registry
+# Emblems Archive
 
-A static, open-source registry of legal, civil and humanitarian emblems.
+Public registry of legal, civil and humanitarian emblems for the general web.
 
-Contents
-- Static website (HTML/CSS/JS) for a concise, Wikipedia-style registry.
-- Local images stored in `assets/symbols/` (see `ATTRIBUTION.md` regarding rights).
+Live site
+- `https://emblems.wiki/`
 
-Quick start (preview locally)
-1. From the repository root run a simple HTTP server (Python 3):
-
-```bash
-python -m http.server 8000
-# then open http://localhost:8000/ in your browser
-```
-
-2. Or use the VS Code Live Server extension to preview the site.
+What this project is
+- A static, open-source website built with HTML, CSS and JavaScript.
+- A Wikipedia-style registry designed for public browsing and sharing.
+- A repository of local symbol images in `assets/symbols/` (see `ATTRIBUTION.md` for rights and reuse notes).
 
 Repository structure
-- `index.html` — English registry dashboard (site root)
+- `index.html` — English registry dashboard at the site root
 - `registry/<slug>/index.html` — emblem detail pages
 - `assets/` — styles and symbol images
 
 Contributing
-- See `CONTRIBUTING.md` for guidelines and the PR workflow.
+- See `CONTRIBUTING.md` for contribution guidelines and the PR workflow.
 
 License
 - Code and site assets created by repository contributors are licensed under the MIT License (see `LICENSE`).
