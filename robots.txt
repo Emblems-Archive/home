@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://emblems.wiki/sitemap.xml
+
+# Crawl-delay can be added for polite crawling if necessary
+# Crawl-delay: 10

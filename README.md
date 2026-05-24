@@ -2,6 +2,11 @@
 
 Public registry of legal, civil and humanitarian emblems for the general web.
 
+Project ownership and contributors
+- Emblems Archive is the parent non-profit organization for this project.
+- Emblems Archive is an unregistered trademark.
+- The only contributor to this project is alexgamingdev: https://www.alexgaming.is-a.dev
+
 Live site
 - `https://emblems.wiki/`
 
